@@ -5,36 +5,47 @@
     <groupId>org.example</groupId>
     <artifactId>gauge-test</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <junit.version>4.13.2</junit.version>
+        <gauge.version>0.9.1</gauge.version>
+        <log4j.version>1.2.17</log4j.version>
+        <appium.version>7.3.0</appium.version>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>
             <artifactId>gauge-java</artifactId>
-            <version>[0.6.8,)</version>
+            <version>${gauge.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
-            <version>3.10.0</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.12.0</version>
-            <scope>test</scope>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>3.7.1</version>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>${appium.version}</version>
         </dependency>
-		<dependency>
-            <groupId>org.reflections</groupId>
-            <artifactId>reflections</artifactId>
-            <version>0.9.10</version>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
         </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+
     </dependencies>
 
     <build>
