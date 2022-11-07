@@ -60,6 +60,12 @@ public class Methods extends BaseTest {
         MobileElement element = appiumDriver.findElement(By.id(id));
         Assert.assertTrue("Textler farkli",element.getText().equals(text));
     }
+    @Step("<id> XPath'li element <text> değerini içeriyor mu kontrol et")
+    public void ControlElementByID1(String id,String text){
+        MobileElement element = appiumDriver.findElement(By.xpath(id));
+        Assert.assertTrue("Textler farkli",element.getText().equals(text));
+    }
+
     @Step("<id> ID'li elementi bul ve <text> değerini yaz")
     public void sendKeysByID(String id,String text){
         appiumDriver.findElement(By.id(id)).sendKeys(text);

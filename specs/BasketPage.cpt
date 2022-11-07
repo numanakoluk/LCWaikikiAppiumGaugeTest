@@ -1,0 +1,6 @@
+Created by nMn on 7.11.2022
+
+This is a concept file with following syntax for each concept.
+# Adet arttırılarak ürün adedinin 2 olduğu doğrulanır.
+* "2" saniye bekle
+* "com.lcwaikiki.android:id/plusImageView" ID'li elementi bul ve tikla

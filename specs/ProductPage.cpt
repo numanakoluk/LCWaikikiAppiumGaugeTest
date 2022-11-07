@@ -1,6 +1,30 @@
 Created by nMn on 7.11.2022
 
 This is a concept file with following syntax for each concept.
-# Sayfanın sonuna scroll edilir.
-*"(//android.widget.ImageView[@content-desc='Görsel Düğme'])[72]" Xpath'li elementi bul ve tikla
+# Seçilen ürün sepete eklenir.
+* "2" saniye bekle
+* "com.lcwaikiki.android:id/basket" ID'li elementi bul ve tikla
+* "7" saniye bekle
+# Sepete dolaylı yoldan gidilir.
+* "//android.widget.ImageView[@content-desc='Kapat']" Xpath'li elementi bul ve tikla
+* "2" saniye bekle
+* "com.lcwaikiki.android:id/clear_text_icon" ID'li elementi bul ve tikla
+* "2" saniye bekle
+* "com.lcwaikiki.android:id/toolbar_back" ID'li elementi bul ve tikla
+* "4" saniye bekle
+* "(//*[@resource-id='com.lcwaikiki.android:id/textItemTab'])[3]" Xpath'li elementi bul ve tikla
+# Ürün sepetten silinerek ve favorilere eklenerin sepetin boş olduğu kontrol edilir.
+* "3" saniye bekle
+* "com.lcwaikiki.android:id/minusLayout" ID'li elementi bul ve tikla
+* "3" saniye bekle
+* "com.lcwaikiki.android:id/minusLayout" ID'li elementi bul ve tikla
+* "3" saniye bekle
+* "com.lcwaikiki.android:id/buttonPositive" ID'li elementi bul ve tikla
+* "3" saniye bekle
+* "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.TextView[1]" XPath'li element "Sepetinde Ürün Yok" değerini içeriyor mu kontrol et
+* "3" saniye bekle
+
+
+
+
 

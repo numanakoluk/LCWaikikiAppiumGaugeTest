@@ -9,7 +9,8 @@ Test
 * Listeden Erkek Seçilir.
 //* Daha fazla ürün gör “ butonuna tıklanır.
 * Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir.
-//* Seçilen ürün sepete eklenir.
+* Seçilen ürün sepete eklenir.
+* Sepete dolaylı yoldan gidilir.
 //* Ürün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır.
-//* Adet arttırılarak ürün adedinin 2 olduğu doğrulanır.
-//* Ürün sepetten silinerek ve favorilere eklenerin sepetin boş olduğu kontrol edilir.
+* Adet arttırılarak ürün adedinin 2 olduğu doğrulanır.
+* Ürün sepetten silinerek ve favorilere eklenerin sepetin boş olduğu kontrol edilir.
