@@ -8,3 +8,11 @@ This is a concept file with following syntax for each concept.
 * "2" saniye bekle
 * "com.lcwaikiki.android:id/seeAllProductsTextView" ID'li elementi bul ve tikla
 * "3" saniye bekle
+
+# Listeden Erkek Seçilir.
+* "(//*[@resource-id='com.lcwaikiki.android:id/container'])[1]" Xpath'li elementi bul ve tikla
+* "1" saniye bekle
+
+# Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir.
+* "com.lcwaikiki.android:id/productImageView" ID'li elementi bul ve tikla
+* "1" saniye bekle

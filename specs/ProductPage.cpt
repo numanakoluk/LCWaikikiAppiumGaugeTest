@@ -1,0 +1,6 @@
+Created by nMn on 7.11.2022
+
+This is a concept file with following syntax for each concept.
+# Sayfanın sonuna scroll edilir.
+*"(//android.widget.ImageView[@content-desc='Görsel Düğme'])[72]" Xpath'li elementi bul ve tikla
+
