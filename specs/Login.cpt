@@ -2,8 +2,13 @@ Created by nMn on 7.11.2022
 
 This is a concept file with following syntax for each concept.
 # Siteye login olunur.
-//Login Button Tıklanır.
 * "(//*[@resource-id='com.lcwaikiki.android:id/textItemTab'])[5]" Xpath'li elementi bul ve tikla
+* "1" saniye bekle
+* "com.lcwaikiki.android:id/edtEmail" ID'li elementi bul ve "testautomationdeneme@gmail.com" değerini yaz
+* "1" saniye bekle
+* "com.lcwaikiki.android:id/edtPassword" ID'li elementi bul ve "0018000Na" değerini yaz
+* "1" saniye bekle
+* "com.lcwaikiki.android:id/buttonLogin" ID'li elementi bul ve tikla
 * "3" saniye bekle
 
 

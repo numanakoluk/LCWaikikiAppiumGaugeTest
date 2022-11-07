@@ -1,0 +1,10 @@
+Created by nMn on 7.11.2022
+
+This is a concept file with following syntax for each concept.
+# Arama kutucuğuna “Parfüm” kelimesi girilir.
+* "com.lcwaikiki.android:id/searchLayout" ID'li elementi bul ve tikla
+* "1" saniye bekle
+* "com.lcwaikiki.android:id/toolbar_search" ID'li elementi bul ve "Parfüm" değerini yaz
+* "2" saniye bekle
+* "com.lcwaikiki.android:id/seeAllProductsTextView" ID'li elementi bul ve tikla
+* "3" saniye bekle

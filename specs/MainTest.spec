@@ -3,9 +3,9 @@
 Test
 ----
 * Uygulamanin acildigi kontrol edilir
-* Siteye login olunur.
+//* Siteye login olunur.
 //* Login işlemi kontrol edilir.
-//* Arama kutucuğuna “Parfüm” kelimesi girilir.
+* Arama kutucuğuna “Parfüm” kelimesi girilir.
 //* Sayfanın sonuna scroll edilir.
 //* Daha fazla ürün gör “ butonuna tıklanır.
 //* Sonuca göre sergilenen ürünlerden bir ürün seçilir.
