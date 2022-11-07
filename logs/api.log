@@ -1,0 +1,7 @@
+07-11-2022 14:30:12.759 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+07-11-2022 14:30:12.760 [Gauge] [INFO] Initializing specs cache with 1 specs
+07-11-2022 14:30:12.760 [Gauge] [DEBUG] Adding specs from C:\Github\LCWaikikiAppiumGaugeTest\specs\example.spec
+07-11-2022 14:30:12.760 [Gauge] [INFO] Initializing steps cache with 1 steps
+07-11-2022 14:30:12.760 [Gauge] [INFO] Gauge daemon initialized and listening on port: 61012
+07-11-2022 14:30:12.761 [Gauge] [DEBUG] Watching directory: C:\Github\LCWaikikiAppiumGaugeTest\specs
+07-11-2022 14:30:12.761 [Gauge] [DEBUG] Found 1 files
