@@ -26,7 +26,9 @@
 
 
 # DEMO
-https://user-images.githubusercontent.com/89300182/200200810-22f77578-b6d7-46d6-8469-35fbf86069f6.mp4
+https://user-images.githubusercontent.com/89300182/200414303-cca37bb6-0ed8-4f46-a970-78e3b7068e16.mp4
+
+
 
 
 
@@ -34,6 +36,10 @@ https://user-images.githubusercontent.com/89300182/200200810-22f77578-b6d7-46d6-
 
 1. [-] **Scenerio Edit**
 
+
+# Gauge Reports
+
+![image](https://user-images.githubusercontent.com/89300182/200414604-1b513076-4cac-4b72-8fc1-d0907272eba0.png)
 
 
 # POMXML
